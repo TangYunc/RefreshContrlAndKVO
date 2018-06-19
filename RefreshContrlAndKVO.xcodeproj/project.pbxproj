@@ -14,6 +14,8 @@
 		2D7B767C20D8B097001E7CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B767A20D8B097001E7CE5 /* LaunchScreen.storyboard */; };
 		2D7B768820D8D11E001E7CE5 /* TYCRefreshCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7B768720D8D11E001E7CE5 /* TYCRefreshCtrl.swift */; };
 		2D7B768A20D8D876001E7CE5 /* 刷新控件的原点.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B768920D8D875001E7CE5 /* 刷新控件的原点.jpg */; };
+		2D7B768C20D8EB8B001E7CE5 /* TYCRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B768B20D8EB8B001E7CE5 /* TYCRefreshView.xib */; };
+		2D7B768E20D8ED3D001E7CE5 /* TYCRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7B768D20D8ED3D001E7CE5 /* TYCRefreshView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2D7B767D20D8B097001E7CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D7B768720D8D11E001E7CE5 /* TYCRefreshCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYCRefreshCtrl.swift; sourceTree = "<group>"; };
 		2D7B768920D8D875001E7CE5 /* 刷新控件的原点.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刷新控件的原点.jpg"; sourceTree = "<group>"; };
+		2D7B768B20D8EB8B001E7CE5 /* TYCRefreshView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TYCRefreshView.xib; sourceTree = "<group>"; };
+		2D7B768D20D8ED3D001E7CE5 /* TYCRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYCRefreshView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				2D7B768720D8D11E001E7CE5 /* TYCRefreshCtrl.swift */,
+				2D7B768D20D8ED3D001E7CE5 /* TYCRefreshView.swift */,
+				2D7B768B20D8EB8B001E7CE5 /* TYCRefreshView.xib */,
 			);
 			name = TYCRefreshCtrl;
 			path = ../../TYCWeiBo/TYCWeiBo/TYCWeiBo/Classes/Tools/TYCRefreshCtrl;
@@ -139,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D7B767C20D8B097001E7CE5 /* LaunchScreen.storyboard in Resources */,
+				2D7B768C20D8EB8B001E7CE5 /* TYCRefreshView.xib in Resources */,
 				2D7B767920D8B097001E7CE5 /* Assets.xcassets in Resources */,
 				2D7B768A20D8D876001E7CE5 /* 刷新控件的原点.jpg in Resources */,
 				2D7B767720D8B097001E7CE5 /* Main.storyboard in Resources */,
@@ -153,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D7B767420D8B097001E7CE5 /* ViewController.swift in Sources */,
+				2D7B768E20D8ED3D001E7CE5 /* TYCRefreshView.swift in Sources */,
 				2D7B767220D8B097001E7CE5 /* AppDelegate.swift in Sources */,
 				2D7B768820D8D11E001E7CE5 /* TYCRefreshCtrl.swift in Sources */,
 			);
