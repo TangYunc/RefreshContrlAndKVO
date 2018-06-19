@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         //设置contentInset
 //        tableView.adjustedContentInset =
-//        tableView.contentInset = UIEdgeInsets(top: 64, left: 0, bottom: 0, right: 0)
+//        tableView.contentInset = UIEdgeInsets(top: -64, left: 0, bottom: 0, right: 0)
         //添加刷新控件
         tableView.addSubview(refreshCtrl)
         refreshCtrl.addTarget(self, action: #selector(loadData), for: .valueChanged)
