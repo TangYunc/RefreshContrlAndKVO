@@ -29,8 +29,6 @@ class ViewController: UIViewController {
         //添加刷新控件
         tableView.addSubview(refreshCtrl)
         refreshCtrl.addTarget(self, action: #selector(loadData), for: .valueChanged)
-        
-        
         loadData()
         
     }
