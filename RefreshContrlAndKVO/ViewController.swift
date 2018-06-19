@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    lazy var refreshCtrl = UIRefreshControl()
+    lazy var refreshCtrl = TYCRefreshCtrl()
     
     /**
      如果用户不放手，下拉到一定程度，会进入自动刷新状态，浪费流量
@@ -22,9 +22,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //设置contentInset
+//        tableView.adjustedContentInset =
+//        tableView.contentInset = UIEdgeInsets(top: 64, left: 0, bottom: 0, right: 0)
         //添加刷新控件
         tableView.addSubview(refreshCtrl)
         refreshCtrl.addTarget(self, action: #selector(loadData), for: .valueChanged)
+        
+        
+        loadData()
+        
     }
     @objc func loadData() {
         print("开始刷新")

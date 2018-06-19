@@ -12,6 +12,8 @@
 		2D7B767720D8B097001E7CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B767520D8B097001E7CE5 /* Main.storyboard */; };
 		2D7B767920D8B097001E7CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B767820D8B097001E7CE5 /* Assets.xcassets */; };
 		2D7B767C20D8B097001E7CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B767A20D8B097001E7CE5 /* LaunchScreen.storyboard */; };
+		2D7B768820D8D11E001E7CE5 /* TYCRefreshCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7B768720D8D11E001E7CE5 /* TYCRefreshCtrl.swift */; };
+		2D7B768A20D8D876001E7CE5 /* 刷新控件的原点.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B768920D8D875001E7CE5 /* 刷新控件的原点.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2D7B767820D8B097001E7CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D7B767B20D8B097001E7CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D7B767D20D8B097001E7CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D7B768720D8D11E001E7CE5 /* TYCRefreshCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYCRefreshCtrl.swift; sourceTree = "<group>"; };
+		2D7B768920D8D875001E7CE5 /* 刷新控件的原点.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刷新控件的原点.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		2D7B767020D8B097001E7CE5 /* RefreshContrlAndKVO */ = {
 			isa = PBXGroup;
 			children = (
+				2D7B768920D8D875001E7CE5 /* 刷新控件的原点.jpg */,
+				2D7B768620D8D11E001E7CE5 /* TYCRefreshCtrl */,
 				2D7B767120D8B097001E7CE5 /* AppDelegate.swift */,
 				2D7B767320D8B097001E7CE5 /* ViewController.swift */,
 				2D7B767520D8B097001E7CE5 /* Main.storyboard */,
@@ -62,6 +68,15 @@
 				2D7B767D20D8B097001E7CE5 /* Info.plist */,
 			);
 			path = RefreshContrlAndKVO;
+			sourceTree = "<group>";
+		};
+		2D7B768620D8D11E001E7CE5 /* TYCRefreshCtrl */ = {
+			isa = PBXGroup;
+			children = (
+				2D7B768720D8D11E001E7CE5 /* TYCRefreshCtrl.swift */,
+			);
+			name = TYCRefreshCtrl;
+			path = ../../TYCWeiBo/TYCWeiBo/TYCWeiBo/Classes/Tools/TYCRefreshCtrl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +140,7 @@
 			files = (
 				2D7B767C20D8B097001E7CE5 /* LaunchScreen.storyboard in Resources */,
 				2D7B767920D8B097001E7CE5 /* Assets.xcassets in Resources */,
+				2D7B768A20D8D876001E7CE5 /* 刷新控件的原点.jpg in Resources */,
 				2D7B767720D8B097001E7CE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +154,7 @@
 			files = (
 				2D7B767420D8B097001E7CE5 /* ViewController.swift in Sources */,
 				2D7B767220D8B097001E7CE5 /* AppDelegate.swift in Sources */,
+				2D7B768820D8D11E001E7CE5 /* TYCRefreshCtrl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
